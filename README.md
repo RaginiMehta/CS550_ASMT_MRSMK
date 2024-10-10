@@ -32,6 +32,7 @@ git clone https://github.com/RaginiMehta/CS550_ASMT_MRSMK
 <br>
 
 ## Technologies Used :
-- Python <br>
+- Programming Language <br>
+    - Python <br>
 
 
