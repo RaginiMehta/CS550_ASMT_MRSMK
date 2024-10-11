@@ -23,10 +23,31 @@ This project leverages machine learning to enhance medical report summarization 
 
 ## Cloning the Repository
 
-Github Link : [https://github.com/RaginiMehta/CS550_ASMT_MRSMK](https://github.com/RaginiMehta/CS550_ASMT_MRSMK) <br>
-You may clone the repository using -
 ```
 git clone https://github.com/RaginiMehta/CS550_ASMT_MRSMK
+```
+
+<br>
+
+## Prerequisites
+
+1. Repository Structure 
+```
+|-- CS550_ASMT_MRSMK
+    |-- .git
+    |-- .gitignore
+    |-- README.md
+    |-- ToDo.md
+    |-- MRSMK.ipynb
+    |-- datasets
+        |-- chest-xrays-indiana-university
+```
+
+2. Authetication token for Kaggle API stored as `kaggle.json` 
+```
+Windows : C:\Users\<YourUsername>\.kaggle\kaggle.json
+MacOS/Linux : ~/.kaggle/kaggle.json
+Google Collaboratory : ~/.kaggle/kaggle.json
 ```
 
 <br>
