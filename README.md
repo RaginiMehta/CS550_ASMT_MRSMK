@@ -40,14 +40,12 @@ git clone https://github.com/RaginiMehta/CS550_ASMT_MRSMK
     |-- ToDo.md
     |-- MRSMK.ipynb
     |-- datasets
-        |-- chest-xrays-indiana-university
-```
-
-2. Authetication token for Kaggle API stored as `kaggle.json` 
-```
-Windows : C:\Users\<YourUsername>\.kaggle\kaggle.json
-MacOS/Linux : ~/.kaggle/kaggle.json
-Google Collaboratory : ~/.kaggle/kaggle.json
+        |-- iu_xray
+            |-- iu_xray_data.csv
+            |-- images
+            |-- images_preprocessed
+            |-- reports
+                |-- ecgen-radiology
 ```
 
 <br>
