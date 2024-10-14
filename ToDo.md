@@ -11,7 +11,7 @@
 ### Step 2: Data Preprocessing
 
 1. [x] **Preprocess Images**  
-2. [ ] **Preprocess Text**  
+2. [x] **Preprocess Text**  
 3. [ ] **Create Data Loaders**
 
 
