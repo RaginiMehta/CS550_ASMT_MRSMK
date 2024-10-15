@@ -12,13 +12,13 @@
 
 1. [x] **Preprocess Images**  
 2. [x] **Preprocess Text**  
-3. [ ] **Create Data Loaders**
+3. [x] **Create Data Loaders**
 
 
 ### Step 3: Model Implementation
 
-1. [ ] **`Visual Extractor` using pre-trained ResNet to extract visual features from X-ray images**
-2. [ ] **`Text Encoder` creating an embedding layer and LSTM for encoding textual input from medical reports**  
+1. [x] **`Visual Extractor` using pre-trained ResNet to extract visual features from X-ray images**
+2. [x] **`Text Encoder` creating an embedding layer and LSTM for encoding textual input from medical reports**  
 3. [ ] **`Multilevel Alignment` aligning and combining visual and text features at multiple levels**
 4. [ ] **`Report Generator` using LSTM decoder to generate medical reports from aligned features**
 5. [ ] **`Complete Model` integrating Visual Extractor, Text Encoder, Multilevel Alignment, and Report Generator into one model**
