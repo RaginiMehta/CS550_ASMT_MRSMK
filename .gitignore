@@ -1,6 +1,6 @@
-datasets/iu_xray/images/
-datasets/iu_xray/images_preprocessed/
-datasets/iu_xray/reports/
+datasets/iu_xray/input/
+datasets/iu_xray/output/*.pt
+datasets/iu_xray/output/images_preprocessed/
 .tmp.driveupload/
 .tmp.drivedownload/
 .ipynb_checkpoints/
