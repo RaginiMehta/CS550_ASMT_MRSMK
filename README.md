@@ -41,13 +41,21 @@ git clone https://github.com/RaginiMehta/CS550_ASMT_MRSMK
     |-- MRSMK.ipynb
     |-- datasets
         |-- iu_xray
-            |-- iu_xray_images_df.csv
-            |-- iu_xray_reports_df.csv
-            |-- iu_xray_reports_preprocessed_df.csv
-            |-- images
-            |-- images_preprocessed
-            |-- reports
-                |-- ecgen-radiology
+            |-- input
+                |-- images
+                    |-- <Files>
+                |-- reports
+                    |-- ecgen-radiology
+                        |-- <Files>
+            |-- output
+                |-- iu_xray_images_df.csv
+                |-- iu_xray_reports_df.csv
+                |-- iu_xray_reports_preprocessed_df.csv
+                |-- avg_feats.pt
+                |-- patch_feats.pt
+                |-- image_embeddings.pt
+                |-- images_preprocessed
+                    |-- <Files>
 ```
 
 <br>
