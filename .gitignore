@@ -1,5 +1,5 @@
 datasets/iu_xray/input/
-datasets/iu_xray/output/*.pt
+# datasets/iu_xray/output/*.pt
 datasets/iu_xray/output/images_preprocessed/
 .tmp.driveupload/
 .tmp.drivedownload/
