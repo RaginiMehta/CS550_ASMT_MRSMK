@@ -13,15 +13,14 @@
     - Shivangi Gaur
 
 
-### Cloning the Repository
+### Instructions
 
+1. Cloning the Repository
 ```
 git clone https://github.com/RaginiMehta/CS550_ASMT_MRSMK
 ```
 
-
-### Repository Structure
-
+2. Maintain the Repository Structure
 ```
 |-- CS550_ASMT_MRSMK
     |-- .git
@@ -38,6 +37,10 @@ git clone https://github.com/RaginiMehta/CS550_ASMT_MRSMK
             |           |-- <Files>
             |-- output
 ```
+
+3. Running the Code - **MRSMK.ipynb**
+- You may simple run the **MRSMK.ipynb** file, irrespective of your notebook environment ( Colab / Kaggle / Jupyter / etc ) 
+
 
 
 ### Technologies Used :
@@ -182,5 +185,26 @@ where Img, MK, and HK are image information, medical dictionary knowledge inform
 
 
 
-### Results
+### Results 
 
+#### Performance Comparison Across Various Metrics
+The table below compares the performance of various models, including the proposed model, as well as the model from the reference research paper on the IU-Xray dataset.
+
+| **Model**           | **BLEU-1** | **BLEU-2** | **BLEU-3** | **BLEU-4** | **MTR**   | **ROUGE-L** |
+|---------------------|------------|------------|------------|------------|-----------|-------------|
+| S&T                 | 0.216      | 0.124      | 0.087      | 0.066      | /         | 0.306       |
+| SA&T                | 0.399      | 0.251      | 0.168      | 0.118      | /         | 0.323       |
+| AdaAtt              | 0.220      | 0.127      | 0.089      | 0.068      | /         | 0.308       |
+| CMAS                | 0.464      | 0.301      | 0.210      | 0.154      | /         | 0.362       |
+| HRGR                | 0.438      | 0.298      | 0.208      | 0.151      | /         | 0.322       |
+| KERP                | 0.482      | 0.325      | 0.226      | 0.162      | /         | 0.339       |
+| R2Gen               | 0.470      | 0.304      | 0.219      | 0.165      | 0.187     | 0.371       |
+| SentKG              | 0.441      | 0.291      | 0.204      | 0.147      | /         | 0.367       |
+| PPKED               | 0.483      | 0.315      | 0.224      | 0.168      | 0.190     | 0.376       |
+| CA                  | 0.492      | 0.314      | 0.222      | 0.169      | /         | 0.381       |
+| CMCL                | 0.473      | 0.305      | 0.217      | 0.162      | /         | 0.378       |
+| M2TR                | 0.486      | 0.317      | 0.232      | 0.173      | /         | 0.390       |
+| R2GenCMN            | 0.475      | 0.309      | 0.222      | 0.170      | 0.198     | 0.375       |
+| GSKET               | 0.496      | 0.327      | 0.238      | 0.178      | /         | 0.381       |
+| **Reference Paper** | **0.513**  | **0.340**  | **0.245**  | **0.188**  | **0.216** | **0.399**   |
+| **BugFixers**       | **0.300**  | **0.101**  | **0.033**  | **0.011**  | **0.284** | **0.370**   |
